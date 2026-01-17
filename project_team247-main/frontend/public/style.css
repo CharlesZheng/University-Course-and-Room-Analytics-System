@@ -1,0 +1,68 @@
+.button {
+	background-color: #3f51b5;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #303f9f;
+}
+
+input {
+	padding: 8px;
+	margin-top: 6px;
+	margin-bottom: 12px;
+	display: block;
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+.dataset-entry {
+	display: flex;
+	justify-content: space-between;
+	max-width: 300px;
+	margin-bottom: 5px;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.dataset-entry {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 12px 16px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 600px;
+}
+
+.dataset-entry > div:first-child {
+	flex: 1;
+	min-width: 250px;
+}
+
+.dataset-entry button {
+	margin: 5px;
+}
+
+
+
